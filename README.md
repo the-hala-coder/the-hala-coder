@@ -1,16 +1,19 @@
-## Hi there 👋
-
-<!--
-**the-hala-coder/the-hala-coder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+const Hala = {
+    pronouns: "He" | "Him",
+    code: ["Languages): Python, SQL,C++,Java, php", "Object-Oriented Programming (OOP), Database Design (ERDs"],
+    askMeAbout: ["Database architecture (ERDs), Object-Oriented Programming (OOP), and Python fundamentals"],
+    technologies: {
+        frontEnd: {
+            js: ["React", "Vue", "Next.js"],
+            css: ["Tailwind", "Bootstrap", "Sass"]
+        },
+        backEnd: {
+            js: ["Node", "Express"],
+            python: ["Django", "Flask"]
+        },
+        databases: ["MongoDB", "PostgreSQL", "MySQL"],
+        devOps: ["Docker", "AWS", "CI/CD"]
+    },
+    currentFocus: "Advanced Algorithm Analysis & Design, and deep-diving into Data Science workflows",
+    funFact: "I’m always on the hunt for the perfect, lightweight tech setup for university productivity"
+};
